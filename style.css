@@ -1,0 +1,162 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+html,
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+
+.order-summary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 21rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+}
+
+.bg-pale-blue {
+  background-color: hsl(225, 100%, 98%);
+}
+
+.hero-img {
+  background-image: url('./images/illustration-hero.svg');
+  background-repeat: none;
+  background-size: contain;
+  height: 10rem;
+  width: 100%;
+}
+
+.copy {
+  margin: 2rem 1rem 1.5rem;
+  padding: 0 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.col {
+  flex-direction: column;
+}
+
+.row {
+  flex: row;
+}
+
+.grow {
+  width: 85%;
+  justify-content: space-around;
+  border-radius: 1rem;
+  padding: 1.25rem 0;
+}
+
+.flex img {
+  margin-right: 1.5rem;
+}
+
+.justify-left {
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h2,
+h4 {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  /* margin: 0.5rem 0; */
+  line-height: 1.75rem;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, 0.7);
+}
+
+.btn-proceed {
+  width: 85%;
+  margin: 1.5rem;
+  height: 3.25rem;
+  color: white;
+  font-weight: 900;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 0.75rem;
+  letter-spacing: 0.05rem;
+  box-shadow: 0 1rem 1rem 0 hsla(245, 75%, 52%, 0.212);
+}
+
+.btn-proceed:hover {
+  background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+.btn-cancel {
+  font-weight: 900;
+  color: hsl(224, 23%, 55%);
+  border: none;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.btn-cancel:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+.mw80 {
+  max-width: 80%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  font-size: 11px;
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    max-width: 1440px;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+  }
+}
