@@ -25,8 +25,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 21rem;
-  border-radius: 2rem;
+  width: 24rem;
+  border-radius: 1.25rem;
   overflow: hidden;
   background-color: white;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .grow {
-  width: 85%;
+  width: 80%;
   justify-content: space-around;
   border-radius: 1rem;
   padding: 1.25rem 0;
@@ -108,7 +108,7 @@ a:hover {
 }
 
 .btn-proceed {
-  width: 85%;
+  width: 80%;
   margin: 1.5rem;
   height: 3.25rem;
   color: white;
